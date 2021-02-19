@@ -1,0 +1,109 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+}
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-size: 16px;
+  background-color: #e5e5e5;
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+.slider-area {
+  margin-top: 150px;
+}
+
+.slide-item {
+  padding: 5px;
+  background-color: #fff;
+}
+
+.slide-item__figure {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+.item-detail__title,
+.item-detail__author,
+.item-detail__stars,
+.item-detail__dollar {
+  margin-bottom: 5px;
+}
+
+.item-detail__title {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.item-detail__author {
+  font-size: 13px;
+}
+
+.item-detail__dollar {
+  font-weight: bold;
+  color: #333;
+}
+
+.item-detail__dollar del {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.item-detail__stars i {
+  color: orange;
+}
+
+/* ------- Slider Nav -------- */
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  background-color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  line-height: 40px;
+}
+
+.owl-carousel .owl-nav button i {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1ab564;
+  line-height: 40px;
+}
+
+.owl-prev {
+  left: -42px;
+}
+
+.owl-next {
+  right: -42px;
+}
